@@ -1,5 +1,5 @@
 #Terere Theme
-#### simple theme for Adobe Brackets
+##### theme for Adobe Brackets
 
 ## Install
 ```Extension Manager > Themes > Terere ```
