@@ -1,5 +1,8 @@
 #Terere Theme
 #### simple theme for Adobe Brackets
+
+## Install
+```Extension Manager > Themes > Terere ```
 ##JavaScript
 
 ![JS on Terere theme](https://github.com/ahlechandre/terere-theme/blob/master/screenshots/js.jpg)
