@@ -1,1 +1,192 @@
-@background: #1f1b31;@foreground: #ffffff;.CodeMirror,.CodeMirror-scroll{background-color:@background;color:@foreground}.CodeMirror-focused .CodeMirror-activeline-background{background-color:rgba(255,255,255,.05)}.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background{box-shadow:inset 15px 0 0 0 #000}.inline-widget .CodeMirror-gutter-elt{color:#555}.cm-hr,.cm-string,.cm-string-2{color:rgba(241,196,15,1)}.cm-atom{color:#b916f5}.cm-attribute,.cm-number,.cm-plus{color:#b756ff}.cm-operator{color:rgba(149,165,166,1)}.cm-def,.cm-variable-2,.cm-variable-3{color:#34dbae}.cm-variable{color:#a0bc6b}.cm-property{color:#1ab0bc}.cm-bracket,.cm-meta{color:red}.cm-comment{color:rgba(255,255,255,.32)}.cm-error,.cm-minus{color:#dc322f}.cm-header{color:#d85896}.cm-link{color:#b77fdb;text-decoration:none}.cm-rangeinfo{color:#6c71c4}.cm-builtin,.cm-qualifier,.cm-quote{color:#b55fd8}.cm-tag{color:#a0eb71}.cm-keyword{color:rgba(231,76,60,1)}css .cm-m-css.cm-number{color:rgba(241,196,15,1)}.cm-m-css.cm-atom{color:#db34ce}.cm-builtin,.cm-m-css.cm-qualifier,.cm-quote{color:#9776e2}.cm-m-css.cm-property{color:#1aed94}.CodeMirror-searching{background-color:#d3cd69;&.searching-current-match { background-color:#f6a644}.CodeMirror-cursor{border-left:1px solid #fff!important}.CodeMirror-gutters{background-color:@background;border-right:none}.CodeMirror-linenumber{color:#6aaa79}.CodeMirror .CodeMirror-selected{background:rgba(255,255,255,.12)}.CodeMirror-focused .CodeMirror-selected{background:rgba(0,255,0,.15)}.CodeMirror-matchingtag{background-color:rgba(80,186,76,.3)}.CodeMirror-matchingbracket{background-color:transparent;color:#01fd4f!important;text-shadow:0 0 7px #01fd4f}.CodeMirror-overwrite .CodeMirror-cursor{border-left:none!important;border-bottom:1px solid #fff}.CodeMirror{.CodeMirror { background:transparent}.CodeMirror .CodeMirror-gutters{background:0 0;border-right:none}.CodeMirror .CodeMirror-activeline-background{background:0 0}.CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt{background:0 0;color:#767676}.CodeMirror-focused .CodeMirror-activeline-background{background:#2f2f2f}.CodeMirror-focused .CodeMirror-activeline{.CodeMirror-gutter-elt { background:rgba(0,0,0,.2);color:#fff}.CodeMirror-foldgutter-open:after{color:#666}.CodeMirror-foldgutter-folded:after{color:#aaa}.CodeMirror-activeline,.CodeMirror.over-gutter{.CodeMirror-foldgutter-open:after { color:#888}.CodeMirror-foldmarker{border-color:#000;color:#ccc;background-color:#444}.image-view,.not-editor{background-color:@background}.view-pane .image-view{color:@foreground}
+@background: #1f1b31;
+@foreground: #ffffff;
+.CodeMirror,
+.CodeMirror-scroll {
+	background-color: @background;
+	color: @foreground
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+	background-color: rgba(255, 255, 255, .05)
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+	box-shadow: inset 15px 0 0 0 #000
+}
+
+.inline-widget .CodeMirror-gutter-elt {
+	color: #555
+}
+
+.cm-hr,
+.cm-string,
+.cm-string-2 {
+	color: rgba(241, 196, 15, 1)
+}
+
+.cm-atom {
+	color: #b916f5
+}
+
+.cm-attribute,
+.cm-number,
+.cm-plus {
+	color: #b756ff
+}
+
+.cm-operator {
+	color: rgba(149, 165, 166, 1)
+}
+
+.cm-def,
+.cm-variable-2,
+.cm-variable-3 {
+	color: #34dbae
+}
+
+.cm-variable {
+	color: #a0bc6b
+}
+
+.cm-property {
+	color: #1ab0bc
+}
+
+.cm-bracket,
+.cm-meta {
+	color: red
+}
+
+.cm-comment {
+	color: rgba(255, 255, 255, .32)
+}
+
+.cm-error,
+.cm-minus {
+	color: #dc322f
+}
+
+.cm-header {
+	color: #d85896
+}
+
+.cm-link {
+	color: #b77fdb;
+	text-decoration: none
+}
+
+.cm-rangeinfo {
+	color: #6c71c4
+}
+
+.cm-builtin,
+.cm-qualifier,
+.cm-quote {
+	color: #b55fd8
+}
+
+.cm-tag {
+	color: #a0eb71
+}
+
+.cm-keyword {
+	color: rgba(231, 76, 60, 1)
+}
+
+css .cm-m-css.cm-number {
+	color: rgba(241, 196, 15, 1)
+}
+
+.cm-m-css.cm-atom {
+	color: #db34ce
+}
+
+.cm-builtin,
+.cm-m-css.cm-qualifier,
+.cm-quote {
+	color: #9776e2
+}
+
+.cm-m-css.cm-property {
+	color: #1aed94
+}
+
+.CodeMirror-searching {
+	background-color: #d3cd69;
+	&.searching-current-match {
+		background-color: #f6a644
+	}
+	.CodeMirror-cursor {
+		border-left: 1px solid #fff!important
+	}
+	.CodeMirror-gutters {
+		background-color: @background;
+		border-right: none
+	}
+	.CodeMirror-linenumber {
+		color: #6aaa79
+	}
+	.CodeMirror .CodeMirror-selected {
+		background: rgba(255, 255, 255, .12)
+	}
+	.CodeMirror-focused .CodeMirror-selected {
+		background: rgba(0, 255, 0, .15)
+	}
+	.CodeMirror-matchingtag {
+		background-color: rgba(80, 186, 76, .3)
+	}
+	.CodeMirror-matchingbracket {
+		background-color: transparent;
+		color: #01fd4f!important;
+		text-shadow: 0 0 7px #01fd4f
+	}
+	.CodeMirror-overwrite .CodeMirror-cursor {
+		border-left: none!important;
+		border-bottom: 1px solid #fff
+	}
+	.CodeMirror {
+		.CodeMirror {
+			background: transparent
+		}
+		.CodeMirror .CodeMirror-gutters {
+			background: 0 0;
+			border-right: none
+		}
+		.CodeMirror .CodeMirror-activeline-background {
+			background: 0 0
+		}
+		.CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+			background: 0 0;
+			color: #767676
+		}
+		.CodeMirror-focused .CodeMirror-activeline-background {
+			background: #2f2f2f
+		}
+		.CodeMirror-focused .CodeMirror-activeline {
+			.CodeMirror-gutter-elt {
+				background: rgba(0, 0, 0, .2);
+				color: #fff
+			}
+			.CodeMirror-foldgutter-open:after {
+				color: #666
+			}
+			.CodeMirror-foldgutter-folded:after {
+				color: #aaa
+			}
+			.CodeMirror-activeline,
+			.CodeMirror.over-gutter {
+				.CodeMirror-foldgutter-open:after {
+					color: #888
+				}
+				.CodeMirror-foldmarker {
+					border-color: #000;
+					color: #ccc;
+					background-color: #444
+				}
+				.image-view,
+				.not-editor {
+					background-color: @background
+				}
+				.view-pane .image-view {
+					color: @foreground
+				}
