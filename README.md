@@ -2,11 +2,9 @@
 ##### theme for Adobe Brackets
 
 ## Install
-1. Open Adobe Brackets
+1. ```Open Adobe Brackets```
 2. ```Extension Manager > Themes > search for "Terere" ```
 3. ```View > Theme > select "Terere"```
-1. 
-2. 
 
 ##JavaScript
 
