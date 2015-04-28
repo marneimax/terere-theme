@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Terere theme
 =======
 #Terere Theme
@@ -15,4 +14,3 @@
 
 ##HTML
 ![HTML on Terere theme](https://github.com/ahlechandre/terere-theme/blob/master/screenshots/html.jpg)
->>>>>>> 113c1bdc2db3ebb5f3adc4439cdc38183914243b
