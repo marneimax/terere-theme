@@ -1,5 +1,3 @@
-#Terere theme
-=======
 #Terere Theme
 ##### theme for Adobe Brackets
 
