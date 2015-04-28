@@ -1,0 +1,15 @@
+{
+    "name": "terere-theme",
+    "title": "Terere",
+    "description": "This terere is a theme for Brackets!",
+    "homepage": "https://github.com/ahlechandre/terere-theme",
+    "version": "0.1.0",
+    "author": "Alexandre Thebaldi <ahlechandre@gmail.com> (http://github.com/ahlechandre)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}
