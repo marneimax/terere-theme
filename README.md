@@ -2,15 +2,15 @@
 ##### theme for Adobe Brackets
 
 ## Install
->> 1. ```Extension Manager > Themes > Terere ```
+> 1. ```Extension Manager > Themes > Terere ```
 
->> or
+> or
 
->> 1. ``` git clone https://github.com/ahlechandre/terere-theme.git /someFolder```
+> 1. ``` git clone https://github.com/ahlechandre/terere-theme.git /someFolder```
 
->> 2. ``` Help > Show Extensions Folder > User```
+> 2. ``` Help > Show Extensions Folder > User```
 
->> 3. paste this project
+> 3. paste this project
 
 and 
 
